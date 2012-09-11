@@ -5,13 +5,10 @@
 
   <body>
 
-    <header>
-      <h1><a href="/ghpagestest">{{ page.title }}</a></h1>
-    </header>
+    {% include navbar.html %}
 
-    <section>
-      {{ content }}
-    </section>
+    {% include container.html %}
 
+    {% include scripts.html %}
   </body>
 </html>
